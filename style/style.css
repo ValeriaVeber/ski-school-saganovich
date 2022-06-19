@@ -11,7 +11,6 @@
          url('../fonts/oswald-v48-latin_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/oswald-v48-latin_cyrillic-500.svg#Oswald') format('svg'); /* Legacy iOS */
   }
-
 /* montserrat-regular - latin_cyrillic */
 @font-face {
     font-family: 'Montserrat';
@@ -38,3 +37,70 @@
          url('../fonts/montserrat-v24-latin_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/montserrat-v24-latin_cyrillic-500.svg#Montserrat') format('svg'); /* Legacy iOS */
   }
+
+  .head-list {
+     font-family: montserrat; sans-serif;
+     font-weight: 500;
+     background-color: #66D1FF;
+  }
+
+  .head-btn {
+     font-size: 24px;
+  }
+
+  .head-tel {
+     font-size: 28px;
+  }
+
+  .promo {
+     background-image: url(/images/promo-pic.png);
+  }
+
+  .promo-title {
+     font-family: oswald, serif;
+     font-size: 60px;
+     text-align: center;
+  }
+
+  .desc-text {
+     font-family: oswald, serif;
+     font-weight: 500;
+     font-size: 48px;
+     text-align: center;
+
+  }
+
+  .promo-text {
+     font-family: montserrat, serif;
+     font-size: 32px;
+     text-align: center;
+  }
+
+ .item-title {
+     font-family: oswald, serif;
+     font-weight: 500;
+     font-size: 32px;
+  }
+
+.item-text {
+     font-family: montserrat, serif;
+     font-weight: 400;
+     font-size: 26px;
+}
+
+.call-action {
+     font-family: oswald, serif;
+     font-weight: 500;
+     font-size: 48px;
+     text-align: center;
+}
+
+.start-btn {
+     font-family: motserrat, serif;
+     font-weight: 500;
+     font-size: 36px;
+     text-align: center;
+     border: 3px solid #060D10;
+     border-radius: 4px; ;
+
+}
