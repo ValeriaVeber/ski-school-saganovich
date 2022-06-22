@@ -38,17 +38,42 @@
          url('../fonts/montserrat-v24-latin_cyrillic-500.svg#Montserrat') format('svg'); /* Legacy iOS */
   }
 
+  * {box-sizing: border-box;
+}
+
+ .container {
+   width: 1440px;
+   height: 112px;
+ }
+
   .head-list {
      font-family: montserrat; sans-serif;
      font-weight: 500;
      background-color: #66D1FF;
   }
 
-  .head-btn {
-     font-size: 24px;
+ 
+  li {
+   list-style-type: none; /* Убираем маркеры */
   }
 
+  .head-btn {
+   display: inline-block;
+    margin: 34px 1083px 33px 81px;
+    height: 45px;
+    font-size: 24px;
+    border: 1px solid #000;
+}
+
+.head-logo {
+   display: inline-block;
+   margin: 31px 560px 30px 584px;
+
+}
+
   .head-tel {
+     display: inline-block;
+     margin: 39px 50px 39px 101px;
      font-size: 28px;
   }
 
