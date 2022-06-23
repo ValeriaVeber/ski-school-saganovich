@@ -43,13 +43,13 @@
 
  .container {
    width: 1440px;
-   height: 112px;
  }
 
   .head-list {
      font-family: montserrat; sans-serif;
      font-weight: 500;
      background-color: #66D1FF;
+     padding-left: 0;
   }
 
  
@@ -60,33 +60,40 @@
   .head-btn {
    display: inline-block;
     margin: 34px 1083px 33px 81px;
-    height: 45px;
     font-size: 24px;
     border: 1px solid #000;
 }
 
 .head-logo {
    display: inline-block;
-   margin: 31px 560px 30px 584px;
+   margin: 31px 559 30px 584px;
 
 }
 
   .head-tel {
      display: inline-block;
-     margin: 39px 50px 39px 101px;
+     margin: 39px 81px 39px 1003px;
      font-size: 28px;
   }
 
   .promo {
-     background-image: url(/images/promo-pic.png);
+      background-image: url('/images/promo-pic.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
   }
+
+  h1 {
+   display: inline-block;
+  }
+
 
   .promo-title {
      font-family: oswald, serif;
      font-size: 60px;
-     text-align: center;
   }
 
+  
   .desc-text {
      font-family: oswald, serif;
      font-weight: 500;
