@@ -127,7 +127,7 @@ li {
    font-weight: 500;
    font-size: 60px;
    line-height: 89px;
-   color:white;
+   color: white;
    text-align: center;
    text-shadow: 1px 1px 2px #060D10;
 }
@@ -139,40 +139,58 @@ h1 {
 }
 
 .promo-text {
-font-family: 'Montserrat', 'serif';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 39px;
-align-items: center;
-text-align: center;
-color: white;
-text-shadow: 1px 1px 2px #060D10;
+   font-family: 'Montserrat', 'serif';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 39px;
+   align-items: center;
+   text-align: center;
+   color: white;
+   text-shadow: 1px 1px 2px #060D10;
 }
 
 p {
    margin-block-start: 60px;
-   margin-block-end:0;
+   margin-block-end: 0;
 }
+
+.desc-items {
+   padding: 170px 81px;
+}
+
 .desc-text {
    font-family: oswald, serif;
    font-weight: 500;
    font-size: 48px;
    text-align: center;
-
 }
 
+.desc-wrap {
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+.desc-blocks {
+   padding: 25px 30px 70px;
+   width: 406px;
+}
 
 .item-title {
-   font-family: oswald, serif;
+   font-family: 'Oswald', serif;
+   font-style: normal;
    font-weight: 500;
    font-size: 32px;
+   line-height: 52px;
 }
 
 .item-text {
-   font-family: montserrat, serif;
+   font-family: 'Montserrat';
+   font-style: normal;
    font-weight: 400;
    font-size: 26px;
+   line-height: 36px;
+   margin-block-start: 25px;
 }
 
 .call-action {
